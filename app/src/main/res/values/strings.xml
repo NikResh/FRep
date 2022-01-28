@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoftMoney</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Main Menu</string>
+    <string name="second_fragment_label">Hello, world</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello, welcome to my app</string>
+    <string name="hello_second_fragment">Hello, world</string>
+</resources>
