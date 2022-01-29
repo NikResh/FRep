@@ -7,6 +7,6 @@
     <string name="addActivityItem">Add activity item</string>
     <string name="hello_first_fragment">Hello, welcome to my app</string>
     <string name="hello_second_fragment">Hello, world</string>
-    <string name="menu">Menu</string>
-    <string name="add_1">Add</string>
+    <string name="menu">Меню</string>
+    <string name="add_1">Добавить</string>
 </resources>
