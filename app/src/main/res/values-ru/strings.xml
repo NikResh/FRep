@@ -7,4 +7,11 @@
     <string name="addActivityItem">Add activity item</string>
     <string name="hello_second_fragment">Hello, world</string>
     <string name="add_1">Добавить</string>
+    <string name="hint_name">Введите название</string>
+    <string name="hint_price">Введите стоимость</string>
+    <array name="main_pager_titles">
+        <item>Расходы</item>
+        <item>Доходы</item>
+        <item>Баланс</item>
+    </array>
 </resources>
