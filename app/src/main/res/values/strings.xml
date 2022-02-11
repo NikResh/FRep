@@ -7,4 +7,12 @@
     <string name="addActivityItem">Add activity item</string>
     <string name="hello_second_fragment">Hello, world</string>
     <string name="add_1">Add</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_price">Price</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="main_pager_titles">
+        <item>expenses</item>
+        <item>incomes</item>
+        <item>balance</item>
+    </array>
 </resources>
