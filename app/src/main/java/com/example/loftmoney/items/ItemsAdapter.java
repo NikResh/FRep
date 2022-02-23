@@ -13,7 +13,7 @@ import com.example.loftmoney.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class itemsAdapter extends RecyclerView.Adapter<itemsAdapter.MoneyViewHolder> {
+public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.MoneyViewHolder> {
 
     private itemAdapterClick itemAdapterClick;
     private List<Item> itemList = new ArrayList<>();
@@ -35,7 +35,6 @@ public class itemsAdapter extends RecyclerView.Adapter<itemsAdapter.MoneyViewHol
     @Override
     public void onBindViewHolder(@NonNull MoneyViewHolder holder, int position) {
         holder.bind(itemList.get(position));
-
     }
 
     @Override
@@ -59,7 +58,7 @@ public class itemsAdapter extends RecyclerView.Adapter<itemsAdapter.MoneyViewHol
 
         public void bind (Item item) {
             name.setText(item.getName());
-            price.setText(item.getPrice());
+            price.setText(String.valueOf(item.getPrice()));
         }
 
     }
