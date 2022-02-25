@@ -15,12 +15,45 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildTypes {
+    signingConfigs {
         release {
-            minifyEnabled false
+            storeFile file ("release.keystore")
+            storePassword "123456"
+            keyAlias "loftmoney"
+            keyPassword "123456"
+
+        }
+    }
+
+
+    buildTypes {
+        debug {
+            buildConfigField("String", "URL", "\"https://google.com\"")
+            resValue("String", "app_name", "LoftMoney_Debug")
+
+        }
+
+        release {
+            signingConfigs signingConfigs.release
+            buildConfigField("String", "URL", "\"http://loftschool.com/android-api/basic/v1/\"")
+            resValue("String", "app_name", "LoftMoney")
+
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    productFlavors {
+        alpha {
+            resValue("String", "app_name", "LoftMoney_Alpha")
+            applicationId "ru.loftmoney.alpha"
+        }
+        beta {
+            resValue("String", "app_name", "LoftMoney_Beta")
+            applicationIdSuffix ".beta"
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

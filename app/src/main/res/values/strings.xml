@@ -12,6 +12,10 @@
     <string name="error_get_items">There was an error getting the list</string>
     <string name="error_put_items">A write error has occurred</string>
     <string name="action_login">Login</string>
+    <string name="balance">Balance</string>
+    <string name="balanceValue">Value</string>
+    <string name="cost">Cost</string>
+    <string name="income">Income</string>
     <array name="main_pager_titles">
         <item>expenses</item>
         <item>incomes</item>

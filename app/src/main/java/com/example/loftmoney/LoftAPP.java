@@ -32,7 +32,7 @@ public class LoftAPP extends Application {
                 .addInterceptor(httpLoggingInterceptor)
                 .build();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://loftschool.com/android-api/basic/v1/")
+                .baseUrl(BuildConfig.URL)
                 .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())

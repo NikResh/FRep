@@ -12,6 +12,10 @@
     <string name="error_get_items">Произошла ошибка при получении списка</string>
     <string name="error_put_items">Произошла ошибка записи</string>
     <string name="action_login">Логин</string>
+    <string name="balance">Баланс</string>
+    <string name="balanceValue">Значение</string>
+    <string name="cost">Стоимость</string>
+    <string name="income">Доход</string>
     <array name="main_pager_titles">
         <item>Расходы</item>
         <item>Доходы</item>

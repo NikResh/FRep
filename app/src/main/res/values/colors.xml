@@ -8,4 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="lightish_blue">#3574fa</color>
+    <color name="PrimaryColor">#666664</color>
+    <color name="orange">#FF9E57</color>
+    <color name="dividerColor">#EFEFEF</color>
+    <color name="colorGreen">#7ED321</color>
 </resources>

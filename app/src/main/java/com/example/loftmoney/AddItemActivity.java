@@ -5,9 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-
 import com.example.loftmoney.databinding.ActivityAddItemBinding;
-
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
@@ -58,7 +56,7 @@ public class AddItemActivity extends AppCompatActivity {
                 }, throwable -> {
                     showMessage(R.string.error_put_items);
                 });
-        сompositeDisposable.add(disposable);
+        CompositeDisposable.add(disposable);
     }
 
     private void showMessage(int message) {
@@ -67,7 +65,7 @@ public class AddItemActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        compositeDisposable.dispose();
+        CompositeDisposable.dispose();
         super.onDestroy();
     }
 }
