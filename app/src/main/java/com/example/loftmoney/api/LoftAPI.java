@@ -1,5 +1,7 @@
 package com.example.loftmoney.api;
 
+import com.example.loftmoney.items.MoneyResponse;
+
 import io.reactivex.Completable;
 import io.reactivex.Single;
 import retrofit2.http.Field;

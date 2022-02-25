@@ -9,6 +9,9 @@
     <string name="add_1">Добавить</string>
     <string name="hint_name">Введите название</string>
     <string name="hint_price">Введите стоимость</string>
+    <string name="error_get_items">Произошла ошибка при получении списка</string>
+    <string name="error_put_items">Произошла ошибка записи</string>
+    <string name="action_login">Логин</string>
     <array name="main_pager_titles">
         <item>Расходы</item>
         <item>Доходы</item>

@@ -9,6 +9,9 @@
     <string name="add_1">Add</string>
     <string name="hint_name">Name</string>
     <string name="hint_price">Price</string>
+    <string name="error_get_items">There was an error getting the list</string>
+    <string name="error_put_items">A write error has occurred</string>
+    <string name="action_login">Login</string>
     <array name="main_pager_titles">
         <item>expenses</item>
         <item>incomes</item>
